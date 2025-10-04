@@ -1,0 +1,31 @@
+JSX : Javascript Extensible , where wwe write js & html together
+
+What is conmponent?
+This is the block of code which contain some certian work.
+class component : not in use beacuse it takes time to render has a bg syntax
+functional component : this is used nowadays
+
+function Componentname(){
+    JS
+    return(
+        HTML
+    )
+}
+
+import & export
+
+What is export default?
+--> This is the default component is exported from the file
+
+How We can Call js i our html ? : {js call}
+
+Conditional Rendering
+
+Clicking events : onClick
+
+props , state & hooks : three pillars of react
+
+useState() : It is used for state manangment where we define the current state and manioulate the state. This is first Hook
+let/const [value,setValue]=useState(value);
+
+Wrapper Component
