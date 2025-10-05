@@ -1,0 +1,6 @@
+useState : This is used to manage the state of a object
+const [current,setCurrent]=useState(value)
+
+whenever we right inline css in react {{}}
+
+props : Props means sending data from parent to child
