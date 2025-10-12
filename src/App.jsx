@@ -7,6 +7,10 @@ import Product from "./Class 2/Props/PropsDrilling/Product";
 import PropsStudy from "./Class 2/Props/PropsStudy";
 import StateManage1 from "./Class 2/StateManage1";
 import Third from "./Class 3/Third";
+import MainFile from "./Class 4/MainFile";
+import Main from "./Class 4/MainFile";
+import Pagination from "./Class 4/Pagination";
+import UseEffect from "./Class 4/UseEffect";
 function App() {
   return (
     // <h1>Hello</h1>
@@ -24,7 +28,12 @@ function App() {
       {/* <Product/> */}
 
       {/* Third Class */}
-      <Third/>
+      {/* <Third/> */}
+
+      {/* Fourth Class */}
+      {/* <UseEffect/> */}
+      {/* <Pagination/> */}
+      <MainFile/>
     </>
   )
 }
