@@ -11,6 +11,10 @@ import MainFile from "./Class 4/MainFile";
 import Main from "./Class 4/MainFile";
 import Pagination from "./Class 4/Pagination";
 import UseEffect from "./Class 4/UseEffect";
+import Form from "./Class 5/Form";
+import Form1 from "./Class 5/Form1";
+import Todo from "./Class 6/Todo";
+import Todo1 from "./Class 6/Todo1";
 function App() {
   return (
     // <h1>Hello</h1>
@@ -33,7 +37,14 @@ function App() {
       {/* Fourth Class */}
       {/* <UseEffect/> */}
       {/* <Pagination/> */}
-      <MainFile/>
+      {/* <MainFile/> */}
+
+      {/* Fifth Class */}
+      {/* <Form/> */}
+      {/* <Form1/> */}
+
+      {/* <Todo/> */}
+      <Todo1/>
     </>
   )
 }
