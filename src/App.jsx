@@ -15,6 +15,7 @@ import Form from "./Class 5/Form";
 import Form1 from "./Class 5/Form1";
 import Todo from "./Class 6/Todo";
 import Todo1 from "./Class 6/Todo1";
+import Seventh from "./Class 7/Seventh";
 function App() {
   return (
     // <h1>Hello</h1>
@@ -37,14 +38,18 @@ function App() {
       {/* Fourth Class */}
       {/* <UseEffect/> */}
       {/* <Pagination/> */}
-      {/* <MainFile/> */}
+      <MainFile/>
 
       {/* Fifth Class */}
       {/* <Form/> */}
       {/* <Form1/> */}
 
+      {/* Sixth Class */}
       {/* <Todo/> */}
-      <Todo1/>
+      {/* <Todo1/> */}
+
+      {/* Seventh Class */}
+      {/* <Seventh/> */}
     </>
   )
 }

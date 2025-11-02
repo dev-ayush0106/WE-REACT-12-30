@@ -2,6 +2,8 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import ProductList from './ProductList'
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa6'
+import { useSelector } from 'react-redux'
+import { Link } from 'react-router-dom'
 
 const Pagination = () => {
     let [products,setProducts]=useState([])
@@ -39,9 +41,24 @@ const Pagination = () => {
     function moveBwd(){
         setCurrentPage(currentPage-1)
     }
+
+    let value=useSelector((state)=>state.cart)
+    console.log(value.length)
+
+    let totalEl=value.reduce((acc,el)=>{
+        return acc+el.quantity
+    },0)
   return (
     <div>
         <h1>Products Data</h1>
+        <div style={{display:"flex",justifyContent:"space-between",padding:"0px 30px"}}>
+            <div className="logo">
+                <h1>Logo</h1>
+            </div>
+            <div className="cart" style={{marginTop:"30px"}}>
+                <h2><Link to="/cart">Cart {totalEl}</Link></h2>
+            </div>
+        </div>
         <div style={{display:"flex",flexWrap:"wrap",justifyContent:"center",gap:"30px"}}>
             {
                 products.map((el)=>(
